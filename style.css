@@ -1177,11 +1177,11 @@ footer [&_a:hover]:text-white a:hover {
 }
 
 @media (max-width: 1023px) {
-    .lg\:hidden {
-        display: none;
-    }
     .lg\:flex {
         display: none;
+    }
+    .lg\:hidden {
+        display: block;
     }
 }
 
@@ -2068,4 +2068,28 @@ details[open] .group-open\:-rotate-45 {
 .modal-close-btn {
     flex: 1;
     min-width: 10rem;
+}
+
+/* Responsive utilities */
+@media (min-width: 768px) {
+    .md\:py-20 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:items-center {
+        align-items: center;
+    }
+}
+
+@media (min-width: 640px) {
+    .sm\:block {
+        display: block;
+    }
+}
+
+.tracking-\[0\.14em\] {
+    letter-spacing: 0.14em;
 }
