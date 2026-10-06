@@ -2093,3 +2093,15 @@ details[open] .group-open\:-rotate-45 {
 .tracking-\[0\.14em\] {
     letter-spacing: 0.14em;
 }
+
+header img[alt="Forge A Gymnasium"] {
+    height: 2.25rem;
+    width: auto;
+    display: block;
+}
+
+footer img[alt="Forge A Gymnasium"] {
+    height: 2.5rem;
+    width: auto;
+    display: block;
+}
